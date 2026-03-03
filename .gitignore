@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables (NEVER commit secrets)
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Runtime data directories
+data/uploads/
+data/sessions/
+data/vectorstore/
+
+# Testing / Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Gemini agent files
+.gemini/
